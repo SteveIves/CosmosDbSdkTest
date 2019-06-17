@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CosmosDbSdkTest.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DatabaseId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">VoiceData</Value>
+    </Setting>
+    <Setting Name="EndPointUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://steveives.documents.azure.com</Value>
+    </Setting>
+    <Setting Name="AuthorizationKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LstFVAyIwtKyjFiPVx1Q4d6JHMywNaxEnJOPQmi7lhDr9e9zSyXSMFm3JUuHLkTZcr09Y1PxiQxrPHC7YrjG8g==</Value>
+    </Setting>
+    <Setting Name="CollectionId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">VoiceDocuments</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
