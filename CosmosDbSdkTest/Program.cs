@@ -35,10 +35,10 @@ namespace CosmosDbSdkTest
     public class Program
     {
         //Read config
-        private static readonly string endpointUrl = Properties.Settings.Default.EndPointUrl;
-        private static readonly string authorizationKey = Properties.Settings.Default.AuthorizationKey;
-        private static readonly string databaseId = Properties.Settings.Default.DatabaseId;
-        private static readonly string collectionId = Properties.Settings.Default.CollectionId;
+        private static readonly string endpointUrl = String.Format("https://{0}",Environment.GetEnvironmentVariable("COSMOS_HOST"));
+        private static readonly string authorizationKey = Environment.GetEnvironmentVariable("COSMOS_KEY");
+        private static readonly string databaseId = "VoiceData";
+        private static readonly string collectionId = "VoiceDocuments";
         private static readonly ConnectionPolicy connectionPolicy = new ConnectionPolicy { UserAgentSuffix = " Synergy DBL" };
 
 
